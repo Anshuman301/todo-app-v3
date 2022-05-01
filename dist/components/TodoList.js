@@ -1,5 +1,5 @@
-import React from "../../_snowpack/pkg/react.js";
-import {Button, List, ListItem, Text} from "../../_snowpack/pkg/@chakra-ui/react.js";
+import React from "../../snowpack/pkg/react.js";
+import {Button, List, ListItem, Text} from "../../snowpack/pkg/@chakra-ui/react.js";
 import {pxToAll} from "../utils/theme.utils.js";
 const resetFilter = {
   isFilter: false,

@@ -1,5 +1,5 @@
-import React from "../../_snowpack/pkg/react.js";
-import {Box, Button, Flex, FormControl, Input} from "../../_snowpack/pkg/@chakra-ui/react.js";
+import React from "../../snowpack/pkg/react.js";
+import {Box, Button, Flex, FormControl, Input} from "../../snowpack/pkg/@chakra-ui/react.js";
 import {pxToAll} from "../utils/theme.utils.js";
 export default function InputTodo({getTodo, handleReset}) {
   const inputRef = React.useRef(null);

@@ -1,5 +1,5 @@
-import React from "../_snowpack/pkg/react.js";
-import {Flex, Text} from "../_snowpack/pkg/@chakra-ui/react.js";
+import React from "../snowpack/pkg/react.js";
+import {Flex, Text} from "../snowpack/pkg/@chakra-ui/react.js";
 import InputTodo from "./components/InputTodo.js";
 import TodoList from "./components/TodoList.js";
 export default function App() {
