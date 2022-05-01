@@ -19,7 +19,7 @@ export default {
   ],
   optimize: {
     /* Example: Bundle your final build: */
-    // "bundle": true,
+    bundle: true,
   },
   packageOptions: {
     /* ... */
@@ -30,7 +30,7 @@ export default {
   },
   buildOptions: {
     /* ... */
-    out: "docs",
+    baseUrl: "./",
     metaUrlPath: "snowpack",
     clean: true,
     jsxInject: `import React from 'react'`,
