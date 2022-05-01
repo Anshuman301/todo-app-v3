@@ -3,7 +3,7 @@
   "homepage": "https://Anshuman301.github.io/todo-app-v3",
   "scripts": {
     "start": "snowpack dev",
-    "predeploy": "npm run build",
+    "predeploy": "npm run build && touch docs/.nojekyll",
     "deploy": "gh-pages -d docs",
     "build": "snowpack build",
     "test": "echo \"This template does not include a test runner by default.\" && exit 1"
