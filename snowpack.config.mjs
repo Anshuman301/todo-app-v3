@@ -30,6 +30,8 @@ export default {
   },
   buildOptions: {
     /* ... */
+    out: "docs",
+    metaUrlPath: "snowpack",
     clean: true,
     jsxInject: `import React from 'react'`,
   },
