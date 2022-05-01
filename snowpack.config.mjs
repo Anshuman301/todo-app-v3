@@ -2,6 +2,8 @@
 export default {
   mount: {
     /* ... */
+    public: { url: "/" },
+    src: { url: "/dist" },
   },
   plugins: [
     /* ... */
@@ -9,6 +11,11 @@ export default {
   routes: [
     /* Enable an SPA Fallback in development: */
     // {"match": "routes", "src": ".*", "dest": "/index.html"},
+    {
+      match: "routes",
+      src: ".*",
+      dest: "/index.html",
+    },
   ],
   optimize: {
     /* Example: Bundle your final build: */
@@ -16,11 +23,14 @@ export default {
   },
   packageOptions: {
     /* ... */
+    knownEntrypoints: ["framesync"],
   },
   devOptions: {
     /* ... */
   },
   buildOptions: {
     /* ... */
+    clean: true,
+    jsxInject: `import React from 'react'`,
   },
 };
